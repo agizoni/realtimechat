@@ -1,0 +1,29 @@
+html, body {
+  text-align: center;
+  font-family: "Arial";
+  size: 30px;
+  color: #fff5ff;
+  background-image: url("https://images.unsplash.com/photo-1590410880079-142aa87a2bbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1406&q=80");
+}
+
+html,body,li,form,ul {
+  padding: 0;
+  margin: 0;
+}
+
+form {
+  padding-bottom: 2%;
+}
+
+li {
+  list-style: none;
+  width: 100vw;
+}
+
+li:nth-child(odd) {
+  background: #1a1a1a;
+}
+
+li:nth-child(even) {
+  background: gray;
+}
